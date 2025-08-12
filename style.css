@@ -41,7 +41,17 @@
       .start-btn:hover{
           background-color: rgb(242, 93, 172);
       }
-
+       @media (max-width: 800px)  {
+        .game-container{
+          display: grid;
+          flex-direction: column;
+        }
+        .left-panel{
+          width: 100%;
+          margin-bottom: 100px;
+        }
+       }
+       
       .count{
         display: grid;
         width: 600px;
