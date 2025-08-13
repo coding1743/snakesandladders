@@ -1,3 +1,6 @@
+body{
+  padding: 10px;
+}
 #start-screen{
     background-color: rgb(237, 118, 141);
     border: 1px solid black;
@@ -57,6 +60,7 @@
         img{
           width: 300px;
           height: 300px;
+
         }
        }
        
